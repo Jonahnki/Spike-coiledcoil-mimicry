@@ -1,0 +1,59 @@
+{
+  "pipeline_step": 7,
+  "generated_at_utc": "2026-08-04T14:50:08.147044+00:00",
+  "generated_in": "Google Colab",
+  "whole_domain_summary": {
+    "ACTC1": {
+      "scores": {
+        "closed": 0.1898,
+        "one_rbd_up": 0.1931,
+        "postfusion": 0.2825
+      },
+      "delta": 0.09269999999999998,
+      "best_state": "postfusion"
+    },
+    "MYH6": {
+      "scores": {
+        "closed": 0.2665,
+        "one_rbd_up": 0.2664,
+        "postfusion": 0.1906
+      },
+      "delta": 0.07590000000000002,
+      "best_state": "closed"
+    },
+    "TPM1": {
+      "scores": {
+        "closed": 0.428,
+        "one_rbd_up": 0.4133,
+        "postfusion": 0.5267
+      },
+      "delta": 0.11339999999999995,
+      "best_state": "postfusion"
+    }
+  },
+  "statistical_validation": {
+    "significance_threshold": 0.05,
+    "any_significant": false,
+    "closest_to_significance": {
+      "antigen": "TPM1",
+      "state": "postfusion",
+      "tm": 0.5267,
+      "pvalue": 0.072
+    }
+  },
+  "fragment_analysis_summary": {
+    "n_valid_patches": 50,
+    "tpm1_state_means": {
+      "closed": 0.9075,
+      "one_rbd_up": 0.9292,
+      "postfusion": 0.9452
+    }
+  },
+  "surface_accessibility": {
+    "n_patches_analyzed": 20,
+    "n_both_exposed": 16,
+    "tpm1_bilateral_exposure_rate": "15 / 15",
+    "myh6_bilateral_exposure_rate": "1 / 5"
+  },
+  "integrated_finding": "Postfusion spike S2 presents surface-exposed coiled-coil regions structurally near-identical to antibody-accessible surfaces on cardiac tropomyosin (TPM1). This similarity is conformation-dependent (postfusion > prefusion), not cardiac-antigen-specific (driven by shared coiled-coil class), and bilaterally surface-exposed for TPM1 but not MYH6. The mechanism is structural-class cross-reactivity, not specific molecular mimicry."
+}

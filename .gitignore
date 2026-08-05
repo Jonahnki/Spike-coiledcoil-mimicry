@@ -1,0 +1,6 @@
+
+# Raw execution output — regenerable via the pipeline, not version-controlled
+myocarditis_pipeline/
+
+__pycache__/
+*.pyc

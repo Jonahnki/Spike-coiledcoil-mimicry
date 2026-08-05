@@ -1,0 +1,540 @@
+{
+  "pipeline_step": 6,
+  "generated_at_utc": "2026-08-04T14:33:20.823892+00:00",
+  "generated_in": "Google Colab",
+  "method": "FreeSASA per-residue solvent-accessible surface area",
+  "exposure_threshold": 0.25,
+  "exposure_threshold_note": "Residues with relative SASA > 25.0% of their amino acid type's maximum possible SASA (Tien et al. 2013 empirical reference values) are classified as surface-exposed. This directly measures the physical property ElliPro estimates via its protrusion index.",
+  "n_patches_analyzed": 20,
+  "n_both_sides_exposed": 16,
+  "patch_exposure_details": [
+    {
+      "query_fragment": "spike_postfusion_0090_0120",
+      "target_fragment": "MYH6_0405_0435",
+      "spike_state": "postfusion",
+      "antigen": "MYH6",
+      "tm_score": 0.9988,
+      "seq_identity": 0.166,
+      "aln_length": 18,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.926,
+      "lddt": 0.7951,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4715
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 12,
+        "fraction_exposed": 0.4,
+        "mean_relative_sasa": 0.2136
+      },
+      "both_sides_exposed": false
+    },
+    {
+      "query_fragment": "spike_postfusion_0105_0135",
+      "target_fragment": "TPM1_0135_0165",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9976,
+      "seq_identity": 0.1,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.1,
+      "lddt": 0.9847,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.466
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 29,
+        "fraction_exposed": 0.967,
+        "mean_relative_sasa": 0.4825
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0075_0105",
+      "target_fragment": "TPM1_0135_0165",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9805,
+      "seq_identity": 0.16,
+      "aln_length": 25,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 9.987,
+      "lddt": 0.9096,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4733
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 29,
+        "fraction_exposed": 0.967,
+        "mean_relative_sasa": 0.4825
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0120_0150",
+      "target_fragment": "TPM1_0090_0120",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9793,
+      "seq_identity": 0.033,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.715,
+      "lddt": 0.9745,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 28,
+        "fraction_exposed": 0.933,
+        "mean_relative_sasa": 0.4554
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 29,
+        "fraction_exposed": 0.967,
+        "mean_relative_sasa": 0.4412
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0075_0105",
+      "target_fragment": "TPM1_0000_0030",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9753,
+      "seq_identity": 0.1,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.306,
+      "lddt": 0.9779,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4733
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 29,
+        "fraction_exposed": 0.967,
+        "mean_relative_sasa": 0.4765
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0075_0105",
+      "target_fragment": "TPM1_0045_0075",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9712,
+      "seq_identity": 0.166,
+      "aln_length": 24,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 5.313,
+      "lddt": 0.8689,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4733
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4614
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0090_0120",
+      "target_fragment": "TPM1_0060_0090",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9684,
+      "seq_identity": 0.227,
+      "aln_length": 22,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 9.332,
+      "lddt": 0.8591,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4715
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4662
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0150_0180",
+      "target_fragment": "MYH6_0450_0480",
+      "spike_state": "postfusion",
+      "antigen": "MYH6",
+      "tm_score": 0.9674,
+      "seq_identity": 0.136,
+      "aln_length": 22,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.695,
+      "lddt": 0.8371,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 19,
+        "fraction_exposed": 0.633,
+        "mean_relative_sasa": 0.3274
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 5,
+        "fraction_exposed": 0.167,
+        "mean_relative_sasa": 0.1072
+      },
+      "both_sides_exposed": false
+    },
+    {
+      "query_fragment": "spike_postfusion_0090_0120",
+      "target_fragment": "TPM1_0015_0045",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9524,
+      "seq_identity": 0.1,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.715,
+      "lddt": 0.9988,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4715
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 28,
+        "fraction_exposed": 0.933,
+        "mean_relative_sasa": 0.4464
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0105_0135",
+      "target_fragment": "TPM1_0075_0105",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.95,
+      "seq_identity": 0.066,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.38,
+      "lddt": 0.9823,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.466
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4481
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0105_0135",
+      "target_fragment": "MYH6_0390_0420",
+      "spike_state": "postfusion",
+      "antigen": "MYH6",
+      "tm_score": 0.9497,
+      "seq_identity": 0.266,
+      "aln_length": 15,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.1,
+      "lddt": 0.766,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.466
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 8,
+        "fraction_exposed": 0.267,
+        "mean_relative_sasa": 0.173
+      },
+      "both_sides_exposed": false
+    },
+    {
+      "query_fragment": "spike_postfusion_0075_0105",
+      "target_fragment": "TPM1_0105_0135",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9428,
+      "seq_identity": 0.2,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 2.184,
+      "lddt": 0.9906,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4733
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 27,
+        "fraction_exposed": 0.9,
+        "mean_relative_sasa": 0.439
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0090_0120",
+      "target_fragment": "TPM1_0135_0165",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9424,
+      "seq_identity": 0.181,
+      "aln_length": 22,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 9.332,
+      "lddt": 0.8292,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4715
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 29,
+        "fraction_exposed": 0.967,
+        "mean_relative_sasa": 0.4825
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0090_0120",
+      "target_fragment": "MYH6_0450_0480",
+      "spike_state": "postfusion",
+      "antigen": "MYH6",
+      "tm_score": 0.9397,
+      "seq_identity": 0.277,
+      "aln_length": 18,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.38,
+      "lddt": 0.792,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4715
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 5,
+        "fraction_exposed": 0.167,
+        "mean_relative_sasa": 0.1072
+      },
+      "both_sides_exposed": false
+    },
+    {
+      "query_fragment": "spike_postfusion_0150_0180",
+      "target_fragment": "TPM1_0015_0045",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9308,
+      "seq_identity": 0.166,
+      "aln_length": 30,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 7.749,
+      "lddt": 0.9928,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 19,
+        "fraction_exposed": 0.633,
+        "mean_relative_sasa": 0.3274
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 28,
+        "fraction_exposed": 0.933,
+        "mean_relative_sasa": 0.4464
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0105_0135",
+      "target_fragment": "TPM1_0105_0135",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.925,
+      "seq_identity": 0.153,
+      "aln_length": 26,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.926,
+      "lddt": 0.8975,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.466
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 27,
+        "fraction_exposed": 0.9,
+        "mean_relative_sasa": 0.439
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0150_0180",
+      "target_fragment": "TPM1_0045_0075",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9191,
+      "seq_identity": 0.2,
+      "aln_length": 25,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 6.695,
+      "lddt": 0.888,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 19,
+        "fraction_exposed": 0.633,
+        "mean_relative_sasa": 0.3274
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4614
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0120_0150",
+      "target_fragment": "TPM1_0060_0090",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.9155,
+      "seq_identity": 0.25,
+      "aln_length": 16,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 8.1,
+      "lddt": 0.7894,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 28,
+        "fraction_exposed": 0.933,
+        "mean_relative_sasa": 0.4554
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.4662
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0120_0150",
+      "target_fragment": "TPM1_0120_0150",
+      "spike_state": "postfusion",
+      "antigen": "TPM1",
+      "tm_score": 0.913,
+      "seq_identity": 0.208,
+      "aln_length": 24,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 5.389,
+      "lddt": 0.8479,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 28,
+        "fraction_exposed": 0.933,
+        "mean_relative_sasa": 0.4554
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 27,
+        "fraction_exposed": 0.9,
+        "mean_relative_sasa": 0.4448
+      },
+      "both_sides_exposed": true
+    },
+    {
+      "query_fragment": "spike_postfusion_0105_0135",
+      "target_fragment": "MYH6_0600_0630",
+      "spike_state": "postfusion",
+      "antigen": "MYH6",
+      "tm_score": 0.9116,
+      "seq_identity": 0.333,
+      "aln_length": 15,
+      "query_length": 30,
+      "target_length": 30,
+      "evalue": 9.935,
+      "lddt": 0.791,
+      "spike_exposure": {
+        "n_residues": 30,
+        "n_exposed": 30,
+        "fraction_exposed": 1.0,
+        "mean_relative_sasa": 0.466
+      },
+      "antigen_exposure": {
+        "n_residues": 30,
+        "n_exposed": 19,
+        "fraction_exposed": 0.633,
+        "mean_relative_sasa": 0.3566
+      },
+      "both_sides_exposed": true
+    }
+  ],
+  "spike_postfusion_overall": {
+    "total_residues": 348,
+    "exposed_residues": 268
+  },
+  "tpm1_overall": {
+    "total_residues": 166,
+    "exposed_residues": 160
+  }
+}

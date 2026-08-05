@@ -1,0 +1,283 @@
+{
+  "pipeline_step": 5,
+  "generated_at_utc": "2026-08-04T13:51:02.738345+00:00",
+  "generated_in": "Google Colab",
+  "null_distribution": {
+    "n_random_proteins": 294,
+    "n_failed_downloads": 6,
+    "n_total_comparisons": 882,
+    "size_bins": {
+      "small": [
+        50,
+        250
+      ],
+      "medium": [
+        250,
+        500
+      ],
+      "large": [
+        500,
+        2000
+      ]
+    },
+    "antigen_size_bin_mapping": {
+      "TPM1": "small",
+      "ACTC1": "medium",
+      "MYH6": "large"
+    }
+  },
+  "calibration": {
+    "positive_controls": [
+      {
+        "label": "Strep M protein vs cardiac myosin (rheumatic fever mimicry)",
+        "tm_score": 0.2632
+      }
+    ],
+    "negative_controls": [
+      {
+        "label": "Hemoglobin beta vs spike (no cross-reactivity)",
+        "spike_state": "closed",
+        "tm_score": 0.186
+      },
+      {
+        "label": "Hemoglobin beta vs spike (no cross-reactivity)",
+        "spike_state": "one_rbd_up",
+        "tm_score": 0.1905
+      },
+      {
+        "label": "Hemoglobin beta vs spike (no cross-reactivity)",
+        "spike_state": "postfusion",
+        "tm_score": 0.4204
+      },
+      {
+        "label": "Insulin vs spike (no cross-reactivity)",
+        "spike_state": "closed",
+        "tm_score": 0.2112
+      },
+      {
+        "label": "Insulin vs spike (no cross-reactivity)",
+        "spike_state": "one_rbd_up",
+        "tm_score": 0.2818
+      },
+      {
+        "label": "Insulin vs spike (no cross-reactivity)",
+        "spike_state": "postfusion",
+        "tm_score": 0.2182
+      }
+    ]
+  },
+  "pvalue_results": [
+    {
+      "antigen": "MYH6",
+      "spike_state": "closed",
+      "observed_tm": 0.2665,
+      "null_n": 22,
+      "null_mean": 0.205,
+      "null_max": 0.4786,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.2609
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "closed",
+      "observed_tm": 0.428,
+      "null_n": 235,
+      "null_mean": 0.2392,
+      "null_max": 0.9459,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.072
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "closed",
+      "observed_tm": 0.1898,
+      "null_n": 19,
+      "null_mean": 0.2749,
+      "null_max": 0.4979,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.75
+    },
+    {
+      "antigen": "MYH6",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.2664,
+      "null_n": 22,
+      "null_mean": 0.1955,
+      "null_max": 0.4737,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.3043
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.4133,
+      "null_n": 235,
+      "null_mean": 0.2356,
+      "null_max": 0.9365,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.0763
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.1931,
+      "null_n": 19,
+      "null_mean": 0.2428,
+      "null_max": 0.4509,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.55
+    },
+    {
+      "antigen": "MYH6",
+      "spike_state": "postfusion",
+      "observed_tm": 0.1906,
+      "null_n": 22,
+      "null_mean": 0.2442,
+      "null_max": 0.6937,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.5652
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "postfusion",
+      "observed_tm": 0.5267,
+      "null_n": 235,
+      "null_mean": 0.3195,
+      "null_max": 0.88,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.072
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "postfusion",
+      "observed_tm": 0.2825,
+      "null_n": 19,
+      "null_mean": 0.2283,
+      "null_max": 0.5124,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.2
+    }
+  ],
+  "significance_threshold": 0.05,
+  "retained_hits": [],
+  "rejected_hits": [
+    {
+      "antigen": "MYH6",
+      "spike_state": "closed",
+      "observed_tm": 0.2665,
+      "null_n": 22,
+      "null_mean": 0.205,
+      "null_max": 0.4786,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.2609,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "closed",
+      "observed_tm": 0.428,
+      "null_n": 235,
+      "null_mean": 0.2392,
+      "null_max": 0.9459,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.072,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "closed",
+      "observed_tm": 0.1898,
+      "null_n": 19,
+      "null_mean": 0.2749,
+      "null_max": 0.4979,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.75,
+      "passes_null_test": false,
+      "passes_calibration": false,
+      "retained": false
+    },
+    {
+      "antigen": "MYH6",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.2664,
+      "null_n": 22,
+      "null_mean": 0.1955,
+      "null_max": 0.4737,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.3043,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.4133,
+      "null_n": 235,
+      "null_mean": 0.2356,
+      "null_max": 0.9365,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.0763,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "one_rbd_up",
+      "observed_tm": 0.1931,
+      "null_n": 19,
+      "null_mean": 0.2428,
+      "null_max": 0.4509,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.55,
+      "passes_null_test": false,
+      "passes_calibration": false,
+      "retained": false
+    },
+    {
+      "antigen": "MYH6",
+      "spike_state": "postfusion",
+      "observed_tm": 0.1906,
+      "null_n": 22,
+      "null_mean": 0.2442,
+      "null_max": 0.6937,
+      "null_size_bin": "large",
+      "empirical_pvalue": 0.5652,
+      "passes_null_test": false,
+      "passes_calibration": false,
+      "retained": false
+    },
+    {
+      "antigen": "TPM1",
+      "spike_state": "postfusion",
+      "observed_tm": 0.5267,
+      "null_n": 235,
+      "null_mean": 0.3195,
+      "null_max": 0.88,
+      "null_size_bin": "small",
+      "empirical_pvalue": 0.072,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    },
+    {
+      "antigen": "ACTC1",
+      "spike_state": "postfusion",
+      "observed_tm": 0.2825,
+      "null_n": 19,
+      "null_mean": 0.2283,
+      "null_max": 0.5124,
+      "null_size_bin": "medium",
+      "empirical_pvalue": 0.2,
+      "passes_null_test": false,
+      "passes_calibration": true,
+      "retained": false
+    }
+  ],
+  "interpretation": "Results listed in 'retained_hits' cleared both the empirical p-value test (against a size-matched null distribution of random human proteins) and the known cross-reactive pair calibration check. These proceed to Step 6 for antigenicity and solvent accessibility scoring. Results in 'rejected_hits' did not clear one or both tracks and are not carried forward, though they are recorded here for full transparency."
+}

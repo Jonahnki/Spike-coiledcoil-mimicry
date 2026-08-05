@@ -1,0 +1,5 @@
+state,pdb_id,description,reference
+closed,6VXX,"Prefusion, all-RBD-down closed trimer",Walls et al. 2020 Cell
+one_rbd_up,6VYB,"Prefusion, single-RBD-up open trimer, companion structure to 6VXX in the same deposition",Walls et al. 2020 Cell
+postfusion,6XRA,"Full-length S2 trimer in postfusion conformation",Cai et al. 2020 Science
+two_rbd_up,,"No well-established canonical two-RBD-up reference structure identified during methodology verification — documented as a deliberate gap rather than forced with an antibody/ACE2-bound complex. See docs/design_decisions.md.",

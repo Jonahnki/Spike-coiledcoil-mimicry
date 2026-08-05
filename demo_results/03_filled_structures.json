@@ -1,0 +1,46 @@
+{
+  "pipeline_step": 3,
+  "generated_at_utc": "2026-08-04T09:34:08.677019+00:00",
+  "generated_in": "Google Colab (GPU runtime)",
+  "source_structure_sources": "/content/drive/MyDrive/myocarditis_pipeline/step2/structure_sources.json",
+  "spike_fallback_used": false,
+  "cardiac_antigens": {
+    "MYH6": {
+      "target_length_aa": 1939,
+      "experimental_coverage_pct": 99.8,
+      "fully_covered_by_alphafold_db": true,
+      "regions": [
+        {
+          "source": "alphafold_db",
+          "predicted": true,
+          "region_start": 1,
+          "region_end": 1939,
+          "mean_plddt": 74.75,
+          "fraction_plddt_very_low": 0.03,
+          "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step3/alphafold_db/AF-P13533-F1-model_v6.cif"
+        }
+      ]
+    },
+    "TPM1": {
+      "target_length_aa": 284,
+      "experimental_coverage_pct": 304.6,
+      "fully_covered_by_alphafold_db": null,
+      "regions": [],
+      "note": "No fallback needed \u2014 fully covered experimentally in Step 2."
+    },
+    "TPM3": {
+      "target_length_aa": 285,
+      "experimental_coverage_pct": 132.3,
+      "fully_covered_by_alphafold_db": null,
+      "regions": [],
+      "note": "No fallback needed \u2014 fully covered experimentally in Step 2."
+    },
+    "ACTC1": {
+      "target_length_aa": 377,
+      "experimental_coverage_pct": 229.4,
+      "fully_covered_by_alphafold_db": null,
+      "regions": [],
+      "note": "No fallback needed \u2014 fully covered experimentally in Step 2."
+    }
+  }
+}

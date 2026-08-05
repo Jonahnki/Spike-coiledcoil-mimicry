@@ -1,0 +1,572 @@
+{
+  "pipeline_step": 2,
+  "generated_at_utc": "2026-08-04T10:55:40.252811+00:00",
+  "generated_in": "Google Colab",
+  "source_panel": "/content/drive/MyDrive/myocarditis_pipeline/step1/panel.json",
+  "spike": {
+    "target_states": [
+      "closed",
+      "one_rbd_up",
+      "two_rbd_up",
+      "postfusion"
+    ],
+    "states_covered": [
+      "closed",
+      "one_rbd_up",
+      "postfusion"
+    ],
+    "states_missing": [
+      "two_rbd_up"
+    ],
+    "selected": {
+      "closed": {
+        "pdb_id": "6VXX",
+        "resolution_A": 2.8,
+        "method": "ELECTRON MICROSCOPY",
+        "title": "Structure of the SARS-CoV-2 spike glycoprotein (closed state)",
+        "release_date": "2020-03-11T00:00:00.000+00:00",
+        "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/6VXX.cif"
+      },
+      "one_rbd_up": {
+        "pdb_id": "6VYB",
+        "resolution_A": 3.2,
+        "method": "ELECTRON MICROSCOPY",
+        "title": "SARS-CoV-2 spike ectodomain structure (open state)",
+        "release_date": "2020-03-11T00:00:00.000+00:00",
+        "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/6VYB.cif"
+      },
+      "postfusion": {
+        "pdb_id": "6XRA",
+        "resolution_A": 3.0,
+        "method": "ELECTRON MICROSCOPY",
+        "title": "Distinct conformational states of SARS-CoV-2 spike protein",
+        "release_date": "2020-07-22T00:00:00.000+00:00",
+        "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/6XRA.cif"
+      }
+    },
+    "all_candidates_considered": [
+      {
+        "pdb_id": "6XR8",
+        "title": "Distinct conformational states of SARS-CoV-2 spike protein",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 2.9,
+        "release_date": "2020-07-22T00:00:00.000+00:00",
+        "polymer_entity_count": 1,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "6XRA",
+        "title": "Distinct conformational states of SARS-CoV-2 spike protein",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.0,
+        "release_date": "2020-07-22T00:00:00.000+00:00",
+        "polymer_entity_count": 1,
+        "search_score": 1.0,
+        "classified_state": "postfusion"
+      },
+      {
+        "pdb_id": "7FG3",
+        "title": "Major cryo-EM structure of S protein trimer of SARS-CoV2 with K-874, composite map",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.9,
+        "release_date": "2021-09-29T00:00:00.000+00:00",
+        "polymer_entity_count": 2,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7FG2",
+        "title": "Minor cryo-EM structure of S protein trimer of SARS-CoV2 with K-874A VHH, composite map",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 4.4,
+        "release_date": "2021-09-29T00:00:00.000+00:00",
+        "polymer_entity_count": 2,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7CWM",
+        "title": "Complex of SARS-CoV-2 spike protein and Fab P17 with one RBD in open state and two RBD in closed state",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.6,
+        "release_date": "2020-12-16T00:00:00.000+00:00",
+        "polymer_entity_count": 3,
+        "search_score": 1.0,
+        "classified_state": "mixed_or_composite(closed,one_rbd_up)"
+      },
+      {
+        "pdb_id": "7CWL",
+        "title": "SARS-CoV-2 spike protein and P17 fab complex with one RBD in close state",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.8,
+        "release_date": "2021-01-27T00:00:00.000+00:00",
+        "polymer_entity_count": 3,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7CWO",
+        "title": "SARS-CoV-2 spike protein RBD and P17 fab complex",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.9,
+        "release_date": "2020-12-16T00:00:00.000+00:00",
+        "polymer_entity_count": 3,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7CWN",
+        "title": "P17-H014 Fab cocktail in complex with SARS-CoV-2 spike protein",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.2,
+        "release_date": "2020-12-16T00:00:00.000+00:00",
+        "polymer_entity_count": 5,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7F3Q",
+        "title": "SARS-CoV-2 RBD in complex with A5-10 Fab and A34-2 Fab",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.3,
+        "release_date": "2022-06-22T00:00:00.000+00:00",
+        "polymer_entity_count": 5,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "7CWU",
+        "title": "SARS-CoV-2 spike proteins trimer in complex with P17 and FC05 Fabs cocktail",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.5,
+        "release_date": "2020-12-16T00:00:00.000+00:00",
+        "polymer_entity_count": 5,
+        "search_score": 1.0,
+        "classified_state": "unclassified"
+      },
+      {
+        "pdb_id": "6VXX",
+        "title": "Structure of the SARS-CoV-2 spike glycoprotein (closed state)",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 2.8,
+        "release_date": "2020-03-11T00:00:00.000+00:00",
+        "polymer_entity_count": 1,
+        "search_score": null,
+        "classified_state": "closed"
+      },
+      {
+        "pdb_id": "6VYB",
+        "title": "SARS-CoV-2 spike ectodomain structure (open state)",
+        "method": "ELECTRON MICROSCOPY",
+        "resolution_A": 3.2,
+        "release_date": "2020-03-11T00:00:00.000+00:00",
+        "polymer_entity_count": 1,
+        "search_score": null,
+        "classified_state": "one_rbd_up"
+      }
+    ]
+  },
+  "cardiac_antigens": {
+    "MYH6": {
+      "target_length_aa": 1939,
+      "best_pdb_id": "8EFI",
+      "covered_length_aa": 1935,
+      "coverage_pct": 99.8,
+      "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/8EFI.cif",
+      "needs_fallback": true,
+      "all_candidates_considered": [
+        {
+          "pdb_id": "8EFI",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin complex in the rigor form",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.4,
+          "release_date": "2022-11-23T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 0.9908814589665653
+        },
+        {
+          "pdb_id": "7JH7",
+          "title": "cardiac actomyosin complex",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.8,
+          "release_date": "2020-10-28T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "9YA8",
+          "title": "The structure of the cardiac native crossbridge in the rigor state, myosin heads bound to actin molecules 6 and 7",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.32,
+          "release_date": "2026-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "9YK9",
+          "title": "The structure of the cardiac native crossbridge in the rigor state, myosin heads bound to actin molecules 1 and 2",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.5,
+          "release_date": "2026-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "9YAQ",
+          "title": "The structure of the cardiac native cross bridge in the rigor state, myosin heads bound to actin molecules 5 and 6.",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.63,
+          "release_date": "2026-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 7,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "9YJP",
+          "title": "The structure of the cardiac native crossbridge in the rigor state, myosin heads bound to actin molecules 2 and 3",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.8,
+          "release_date": "2026-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 7,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "9YKN",
+          "title": "The structure of the cardiac native crossbridge in the rigor state, myosin heads with essential and regulatory light chains bound to actin molecules 6 and 7",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.3,
+          "release_date": "2026-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 6,
+          "search_score": 0.9933130699088146
+        },
+        {
+          "pdb_id": "8G4L",
+          "title": "Cryo-EM structure of the human cardiac myosin filament",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 6.4,
+          "release_date": "2023-11-01T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 0.9908814589665653
+        },
+        {
+          "pdb_id": "8Q6T",
+          "title": "Helical reconstruction of the relaxed thick filament from FIB milled left ventricular mouse myofibrils",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 18.0,
+          "release_date": "2023-11-01T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "5TBY",
+          "title": "HUMAN BETA CARDIAC HEAVY MEROMYOSIN INTERACTING-HEADS MOTIF OBTAINED BY HOMOLOGY MODELING (USING SWISS-MODEL) OF HUMAN SEQUENCE FROM APHONOPELMA HOMOLOGY MODEL (PDB-3JBH), RIGIDLY FITTED TO HUMAN BETA-CARDIAC NEGATIVELY STAINED THICK FILAMENT 3D-RECONSTRUCTION (EMD-2240)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 20.0,
+          "release_date": "2017-06-07T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 0.9908814589665653
+        }
+      ]
+    },
+    "TPM1": {
+      "target_length_aa": 284,
+      "best_pdb_id": "8EFH",
+      "covered_length_aa": 865,
+      "coverage_pct": 304.6,
+      "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/8EFH.cif",
+      "needs_fallback": false,
+      "all_candidates_considered": [
+        {
+          "pdb_id": "8EFH",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin complex in complex with ADP-Mg2+",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.3,
+          "release_date": "2023-01-11T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8EFI",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin complex in the rigor form",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.4,
+          "release_date": "2022-11-23T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "6X5Z",
+          "title": "Bovine Cardiac Myosin in Complex with Chicken Skeletal Actin and Human Cardiac Tropomyosin in the Rigor State",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.24,
+          "release_date": "2020-07-22T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7UTI",
+          "title": "ALTERNATIVE MODELING OF TROPOMYOSIN IN HUMAN CARDIAC THIN FILAMENT IN THE CALCIUM BOUND STATE",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.8,
+          "release_date": "2022-09-21T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7UTL",
+          "title": "ALTERNATIVE MODELING OF TROPOMYOSIN IN HUMAN CARDIAC THIN FILAMENT IN THE CALCIUM FREE STATE",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 6.6,
+          "release_date": "2022-09-21T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7KO5",
+          "title": "Structure of cardiac native thin filament at pCa=5.8 having upper and lower troponins in Ca2+ bound state",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 7.8,
+          "release_date": "2021-03-24T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7KOR",
+          "title": "Structure of cardiac native thin filament at pCa=5.8 having upper troponin in Ca2+ bound state and lower troponin in Ca2+ free state",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 7.8,
+          "release_date": "2021-03-24T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7KO4",
+          "title": "Structure of cardiac native thin filament at pCa=5.8 having upper and lower troponins in Ca2+ free state",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 8.0,
+          "release_date": "2021-03-24T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7KON",
+          "title": "Structure of upper Tn Ca2+ free (rotated) and lower Tn Ca2+ bound cardiac native thin filament at pCa=5.8",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 8.1,
+          "release_date": "2021-03-24T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7KO7",
+          "title": "Structure of the native cardiac thin filament at pCa=5.8 having upper Tn in Ca2+ free state and lower Tn in Ca2+ bound state",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 8.3,
+          "release_date": "2021-03-24T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        }
+      ]
+    },
+    "TPM3": {
+      "target_length_aa": 285,
+      "best_pdb_id": "9E2E",
+      "covered_length_aa": 377,
+      "coverage_pct": 132.3,
+      "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/9E2E.cif",
+      "needs_fallback": false,
+      "all_candidates_considered": [
+        {
+          "pdb_id": "9E2E",
+          "title": "The structure of the junction region of the wild-type murine native cardiac thin filament in Ca2+-free state",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 4.0,
+          "release_date": "2025-06-04T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO7",
+          "title": "Structure of native murine cardiac thin filament at pCa=5.8 in Ca2+-bound fully activated state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.2,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO8",
+          "title": "Structure of native murine cardiac thin filament at pCa=5.8 in Ca2+-free state (upper strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.2,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO4",
+          "title": "Structure of native murine cardiac thin filament at pCa=5.8 in Ca2+-free state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.3,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO5",
+          "title": "Structure of native murine cardiac thin filament at pCa=5.8 in Ca2+-bound partially activated state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.3,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO6",
+          "title": "Structure of native murine cardiac thin filament at pCa=5.8 in Ca2+-free tilted state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.3,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MOA",
+          "title": "Structure of native murine cardiac thin filament variant I79N in troponin T at pCa=5.8 in Ca2+-free tilted state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.4,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MOB",
+          "title": "Structure of native murine cardiac thin filament variant I79N in troponin T at pCa=5.8 in Ca2+-free state (upper strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.5,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MO9",
+          "title": "Structure of native murine cardiac thin filament variant I79N in troponin T at pCa=5.8 in Ca2+-free rotated state (lower strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.6,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "9MOC",
+          "title": "Structure of native murine cardiac thin filament variant I79N in troponin T at pCa=5.8 in Ca2+-free rotated state (upper strand)",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.6,
+          "release_date": "2025-05-28T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        }
+      ]
+    },
+    "ACTC1": {
+      "target_length_aa": 377,
+      "best_pdb_id": "8EFH",
+      "covered_length_aa": 865,
+      "coverage_pct": 229.4,
+      "file_path": "/content/drive/MyDrive/myocarditis_pipeline/step2/structures/8EFH.cif",
+      "needs_fallback": false,
+      "all_candidates_considered": [
+        {
+          "pdb_id": "8EFH",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin complex in complex with ADP-Mg2+",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.3,
+          "release_date": "2023-01-11T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8EFI",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin complex in the rigor form",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.4,
+          "release_date": "2022-11-23T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8DD0",
+          "title": "The structure of the native cardiac thin filament junction region",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.5,
+          "release_date": "2022-12-28T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8ENC",
+          "title": "Helical reconstruction of the human cardiac actin-tropomyosin-myosin loop 4 7G mutant complex",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.6,
+          "release_date": "2022-11-23T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7JH7",
+          "title": "cardiac actomyosin complex",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 3.8,
+          "release_date": "2020-10-28T00:00:00.000+00:00",
+          "polymer_entity_count": 3,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8UWW",
+          "title": "The structure of the native cardiac thin filament troponin core in Ca2+-free state from the upper strand",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.1,
+          "release_date": "2024-03-06T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8UYD",
+          "title": "The structure of the native cardiac thin filament troponin core in Ca2+-free state from the lower strand",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.3,
+          "release_date": "2024-03-06T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8UWY",
+          "title": "The structure of the native cardiac thin filament troponin core in Ca2+-free rotated state from the upper strand",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 5.5,
+          "release_date": "2024-03-06T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "8UWX",
+          "title": "The structure of the native cardiac thin filament troponin core in Ca2+-free tilted state from the upper strand",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 6.0,
+          "release_date": "2024-03-06T00:00:00.000+00:00",
+          "polymer_entity_count": 5,
+          "search_score": 1.0
+        },
+        {
+          "pdb_id": "7LRG",
+          "title": "Filamentous actin decorated with human cardiac myosin binding protein C C2 domain",
+          "method": "ELECTRON MICROSCOPY",
+          "resolution_A": 6.1,
+          "release_date": "2021-08-11T00:00:00.000+00:00",
+          "polymer_entity_count": 2,
+          "search_score": 1.0
+        }
+      ]
+    }
+  }
+}
